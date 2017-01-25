@@ -22,4 +22,6 @@ Supports the following operators that can be chained indefinitely,
     cast,
     orderBy
 
-   and utility methods of all,any,skip,count,sum,max,min,first,last,
+   and utility methods of all, any, skip,count, sum,max,min, first,last, toList, toArray
+   
+  
