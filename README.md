@@ -5,7 +5,7 @@ It was created with in mind to become obsolete when Android earlier versions wil
 
 But why wait for this to happen...
 
-Using retrolmabda, we are able to write syntax like streams using one static method named streams.
+Using retrolambda, we are able to write syntax like streams using one static method named streams.
 e.g.
 ```java
 List<Integer> testListIntegers = Arrays.asList(2, 1, 3, 4, 10);
@@ -16,3 +16,10 @@ List<String> result = stream(testListIntegers)
                 .filter(s -> s.endsWith("0"))
                 .toList();
 ```
+Supports the following operators that can be chained indefinitely,
+    filter,
+    map,
+    cast,
+    orderBy
+
+   and utility methods of all,any,skip,count,sum,max,min,first,last,
